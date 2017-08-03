@@ -5,23 +5,34 @@ of revenue as product prices change over time.
  number of units each product has in stock.
 
  {
-   "Departments":{
-        "products":[{
-            "name":"string",
-            "price": float,
-            "stock": int
+   "departments":{
+        "products":[
+          {
+            "name": "Watermelon Slicer", [string]
+            "price": 36.02, [float]
+            "availableStock": 13, [int]
+            "pendingStock": 11 [int]
+                }
+                  ]
+          },
+  },
 
-                    }]
-
-                  },
-    "Transactions":[
+  {
+    "transactions":[
                     {
-                    "Items":[{"department":,"product":,"quanitity":,"pricePer":},],
-                    "customer":"string" ,
-                    "address":"string",
-                    "payed": bool,
-                    "shipped" bool:
+                    "Items":[
+                      {"department": "toys" [string]
+                        ,"product": "ball", [string]
+                        "quanitity": 3, [int]
+                        "pricePer": 41.09 [float]
+                      }
+                    ],
+                    "date": 11082016, [int]
+                    "customer":"Jill_dog", [string]
+                    "address":"P42 Wallaby Way", [string]
+                    "payed": true,  [boolean]
+                    "shipped": false, [boolean]
+                    "receiptNumber": 3243232443 [int]
                    }
-
                     ]
  }
