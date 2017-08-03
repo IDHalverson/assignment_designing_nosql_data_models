@@ -1,0 +1,27 @@
+You're building a backend for a university that requires students to be able to login.
+Once logged in, the students can view the exam grades for their classes. They should be able to view results by semester.
+Each semester should only show the classes in which that student is enrolled that semester.
+
+
+{
+"Students":{
+  "student1":{
+      "ID": "learning@school.edu",
+      "Password": "this is a secret",
+      "Semesters":{
+        "semester1":{
+            "Classes":{
+                "Class1":{
+                  "Title": "Intro to being awesome",
+                  "roomnumber": "42",
+                  "teacher": "Cool Cat",
+                  "Exams":[{"CoolTest": 42 },{"ColdTest": 32},{"HotTest": 212} ],
+                  "hw": [{"WatchBill&Ted": 1 },{"WatchBill&TedBogusJourney": 2},{"StayCool": 32} ],
+                  "grade": 99
+                          }
+                      }
+                      }
+                    }
+              }
+            }
+}
