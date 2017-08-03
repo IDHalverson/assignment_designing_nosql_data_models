@@ -1,0 +1,36 @@
+
+You're building an application that requires user login. Once logged in the
+user has a bunch of profile information and preference settings available to
+them. They will need to be able set their birthday, gender, phone number and
+location (city, state, country). They should be able to provide text to tell
+about themselves. They also should be able to enable and disable visibility of
+their birthday, gender, phone number and location.
+
+
+
+{
+  "Johnny_Boy112": {
+    "Username":"Johnny_Boy112", [string]
+    "FirstName":"Johnny", [string]
+    "LastName": "Boy", [string]
+    "Birthday": 11141990, [int]
+
+      "Profile": {
+        "About_Me": "I love baseball. Yay!", [string]
+        "location": {
+          "City": "Annapolis", [string]
+          "State": "Maryland", [string]
+          "Country": "USA", [string]
+          "PhoneNumber": 14104434222 [integer]
+        },
+        "Gender": "Male", [string]
+      },
+
+      "Settings": {
+        "display_birthday": true, [boolean]
+        "display_gender": true, [boolean]
+        "display_phonenumber": false, [boolean]
+        "display_location": true [boolean]
+      }
+  }
+}

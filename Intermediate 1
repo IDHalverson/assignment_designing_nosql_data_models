@@ -1,0 +1,48 @@
+
+You're building a restaurant table reserving app that allows users to reserve
+tables for specified numbers of people. The app will need to show only tables
+that are available and the times they are available. The app will need to store
+reservations under a given name with a phone number and number of guests.
+
+
+
+{
+  "Table1": {
+    "Seats": 8,
+    "Type": "booth",
+    "Reservations": {
+      "11:00am": {
+        "Available": false,
+        "Name": "Henderson",
+        "Phone": 4422213333,
+        "Guests": 3,
+      },
+      "12:00pm": {
+        "Available": true,
+        "Name": ,
+        "Phone": ,
+        "Guests": ,
+      }
+    }
+
+  },
+
+  "Table8": {
+    "Seats": 10,
+    "Type": "half-booth",
+    "Reservations": {
+      "11:00am": {
+        "Available": false,
+        "Name": "James",
+        "Phone": 4422213553,
+        "Guests":9,
+      },
+      "12:00pm": {
+        "Available": true,
+        "Name": ,
+        "Phone": ,
+        "Guests": ,
+      }
+    }
+  }
+}
